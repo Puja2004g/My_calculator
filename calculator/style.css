@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: url(https://wallpapercave.com/wp/3Q9Cg9S.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    height: 100%;
+}
+
+.box {
+    background: linear-gradient(to right, black, grey);
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    padding: 0px 40px 0px 40px;
+}
+
+.box h3{
+    color: azure;
+    text-shadow: 2px 5px 2px grey;
+}
+
+.button {
+    padding: 30px 20px;
+    margin: 5px 7px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    font-size: 20px;
+    width: 90px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 0 2px 3px lightgray;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    border: 2px solid grey;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    padding: 35px 0px;
+    border-radius: 6px;
+    /* margin: top right bottom left */
+    margin: 0 0 40px 0;
+    color: white;
+    font-size: 43px;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens here */
+    .box {
+        padding: 20px;
+    }
+
+    .button {
+        padding: 20px 10px;
+        font-size: 16px;
+        width: 60px;
+    }
+
+    .row input {
+        padding: 25px 0;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust the styles for even smaller screens here */
+    .box {
+        padding: 10px;
+    }
+
+    .button {
+        padding: 15px 8px;
+        font-size: 14px;
+        width: 50px;
+    }
+
+    .row input {
+        padding: 20px 0;
+        font-size: 24px;
+    }
+}
+

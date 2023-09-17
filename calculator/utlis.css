@@ -1,0 +1,28 @@
+.text-centre{
+    text-align: center;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.m-w-20{
+    max-width: 30vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.item-centre{
+    justify-content: center;
+    align-items: center;
+}

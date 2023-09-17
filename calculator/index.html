@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="utlis.css">
+
+<body>
+    <div class="container flex flex-col item-centre vertical-centre">
+        <div class="box">
+            <h3>CASIO</h3>
+            <div class="row">
+                <input type="text" class="input">
+            </div>
+            <div class="row">
+                <!-- remainder calculation -->
+                <button class="button">%</button> <!-- working -->
+                <!-- Memery recalls -->
+                <button class="button">MU</button> <!-- working -->
+                <button class="button">GT</button>
+                <button style="height: 90px; padding: 30px 25px;" class="button">check back</button>
+                <button style="height: 90px; padding: 30px 15px;" class="button">check forward</button>
+            </div>
+            <div class="row">
+                <!-- calculate the square root of the number entered -->
+                <button class="button">sqrt</button> 
+                <!-- <button class="button">&#8730</button> -->
+                <!-- memory recall clear, recalls the value stored in the memory and then clear it  -->
+                <button class="button">MRC</button>
+                 <!--"Memory plus" adds the current value on the display to the memory  -->
+                <button class="button">M+</button> <!-- working  -->
+                <!--"Memory minus" subtracts the current value on the display to the memory  -->
+                <button class="button">M-</button> <!-- working  -->
+                <!-- division button -->
+                <button class="button">/</button><!-- working  -->
+            </div>
+            <div class="row">
+                <button class="button">7</button> <!-- working  -->
+                <button class="button">8</button><!-- working  -->
+                <button class="button">9</button><!-- working  -->
+                <button class="button">*</button><!-- working  -->
+                <!-- power  -->
+                <button class="button">**</button><!-- working  -->
+            </div>
+            <div class="row">
+                <button class="button">C</button><!-- working  -->
+                <button class="button">4</button><!-- working  -->
+                <button class="button">5</button><!-- working  -->
+                <button class="button">6</button><!-- working  -->
+                <!-- subtraction button -->
+                <button class="button">-</button><!-- working  -->
+            </div>
+            <div class="row">
+                <button class="button">AC</button><!-- working  -->
+                <button class="button">1</button><!-- working  -->
+                <button class="button">2</button><!-- working  -->
+                <button class="button">3</button><!-- working  -->
+                <!-- addition -->
+                <button class="button">+</button><!-- working  -->
+            </div>
+            <div class="row">
+                <button class="button">correct</button>
+                <button class="button">0</button><!-- working  -->
+                <button class="button">00</button><!-- working  -->
+                <!-- decimal -->
+                <button class="button">.</button><!-- working  -->
+                <!-- equals -->
+                <button class="button">=</button><!-- working  -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
